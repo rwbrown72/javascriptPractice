@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Fibonacci Sequence</title>
+        <title>Prime Factor</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -23,16 +23,16 @@
         
         
         <form>
-            <h1>Fibonacci Sequence:</h1>
-            <p>How many number in the Fibonacci sequence would you like to see?</p>
-            <small>Max of 50 <br></small>
-            <input id="userInput" type="number" min="1" max="50">Number</input>
-            <button type="button" onclick="fib()">Submit</button>
+            <h1>Prime Factor:</h1>
+            <p>What number would you like to see all the "Prime Factors" for?</p>
+            <small>Max of 5000 <br></small>
+            <input id="userInput" type="number" min="1" max="5000">Number to Factor</input>
+            <button type="button" onclick="factor()">Submit</button>
         </form>
 
 
         
-        <ul id="fib">
+        <ul id="factors">
         </ul>
 
     
@@ -40,7 +40,7 @@
 
         <script src="../js/plugins.js"></script>
         <script src="../js/main.js"></script>
-        <script src="../js/fibonacci.js" ></script>
+        <script src="../js/prime_factor.js" ></script>
 
         
     </body>
