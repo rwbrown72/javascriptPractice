@@ -20,8 +20,7 @@ function factor() {
 		}
 	}
 
-  
-
+ 
 	// Print our sequence of prime numbers to the screen
   for (var i = 0, len = factors.length; i < len; i++) {	
 	 	
